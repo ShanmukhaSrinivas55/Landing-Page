@@ -1,0 +1,482 @@
+
+*{
+
+   padding:0;
+   margin:0;
+
+}
+body{
+
+font-family:"Times New Roman", Times, serif;
+font-weight: normal;
+
+}
+.page-container{
+
+width:1360px;
+overflow-x:hidden;
+
+}
+
+.clear{
+
+clear:both;
+
+}
+.header {
+
+height:60px;
+
+}
+.logo{
+
+width:200px;
+height:200px;
+position:relative;
+top:-80px;
+padding-left:40px;
+
+}
+.button1{
+
+  height:30px;
+  width:80px;
+  background-color:#0033FF;
+  opacity:1;
+  color:white;
+  position:relative;
+  top:-158px;
+  font-weight: 700px;
+  left:30px;
+  border:none;
+  border-radius: 4px;
+
+}
+.button2{
+
+float:right;
+position:relative;
+left:-40px;
+top:20px;
+margin-left: 50px;
+
+}
+.button3{
+
+float:right;
+
+}
+.button-hover:hover{
+
+  background-color:#0027CC;
+
+}
+.div1{
+
+background: url(div1.jpg) no-repeat center;
+background-size:cover;
+width:1360px;
+height:450px;
+
+}
+.div1-content{
+
+  width:550px;
+  position:relative;
+  left:100px;
+  top:100px;
+  background-color: white;
+  opacity:0.7;
+  border-radius: 8px;
+
+  }
+  .div1-subcontent{
+
+  font-size:30px;
+
+  }
+.div2{
+
+  height:200px;
+  line-height:30px;
+
+}
+.div2-heading{
+
+margin-top: 30px;
+margin-left: 460px;
+margin-bottom: 40px;
+font-size:30px;
+
+}
+.div2 .goals ul{
+
+   display:block;
+   width:1360px;
+
+}
+.div2 .goals ul li{
+
+   display:inline-block;
+   width:200px;
+   margin-left:100px;
+   font-size:18px;
+
+}
+.goal1{
+
+position:relative;
+top:-30px;
+
+}
+
+.span1{
+
+font-size:25px;
+font-weight:100%;
+
+}
+.div3{
+
+margin-top:40px;
+height:300px;
+background-color:#E7EFF1;
+padding-left: 140px;
+
+}
+.div3 .image1  img{
+
+  width:300px;
+  height:200px;
+  margin-top:50px;
+  position:relative;
+  left:100px;
+  float:left;
+
+}
+
+.div3 .div3-content {
+
+   float:left;
+   position:relative;
+   left:170px;
+   top:50px;
+   font-size:30px;
+
+}
+
+.div4{
+
+  margin-left: 50px;
+
+}
+.topcourses{
+
+  position:relative;
+  left:470px;
+  top:50px;
+  font-size: 30px;
+
+}
+ .course1-image  img{
+
+  margin:50px 50px 10px 50px;
+  width:150px;
+  height:100px;
+  padding-top:40px;
+
+}
+
+.course1-content {
+
+  margin-left:50px;
+  padding-bottom:60px;
+  font-weight: normal;
+
+}
+
+.span2{
+
+  font-size:15px;
+  position:relative;
+  top:-2px;
+  font-weight: normal;
+
+}
+
+.course-float{
+
+float:left;
+
+}
+
+
+.div5{
+
+background-color:#BFE1EF;
+height:400px;
+font-weight:normal;
+padding-bottom: 60px;
+
+}
+.review-heading{
+
+font-size:30px;
+position:relative;
+left:60px;
+top:90px;
+margin-bottom:140px;
+
+}
+.div5 .review{
+
+  float:left;
+  padding-top:60px;
+  padding-left:100px;
+  line-height:30px;
+  font-size:18px;
+
+}
+.div5  .review1{
+
+height:160px;
+background-color:white;
+margin-left:60px;
+padding:20px;
+width:330px;
+
+}
+.div5  .review2{
+
+height:160px;
+background-color:white;
+margin-left:80px;
+padding:20px;
+width:330px;
+
+}
+.div5  .review3{
+
+height:160px;
+background-color:white;
+margin-left:80px;
+padding:20px;
+width:330px;
+
+}
+
+.footer-container{
+
+height:100px;
+width:1350px;
+background-color:#F8F8F8;
+font-weight: normal;
+
+}
+.footer1 {
+
+float:left;
+display:block;
+
+}
+.footer1 ul li{
+
+display:inline-block;
+position:relative;
+top:40px;
+left:20px;
+
+}
+.footer2 {
+
+float:right;
+display:block;
+
+}
+.footer2 ul li{
+
+display:inline-block;
+position:relative;
+top:40px;
+left:-30px;
+padding-left: 20px;
+
+}
+
+@media screen and (max-width: 500px){
+
+.page-container{
+
+max-width: 500px;
+position:relative;
+left:20px;
+margin-right:20px;
+
+}
+.logo{
+
+  position:relative;
+  left:80px;
+  top:-70px;
+
+}
+.header {
+
+  width: 480px;
+  height:80px;
+
+}
+.button2{
+
+position:relative;
+top:-190px;
+left:-20px;
+display:block;
+
+}
+.login{
+
+  position:relative;
+  top:60px;
+  left:-20px;
+
+}
+.explore{
+
+  position:relative;
+ left:-225px;
+
+}
+.div1{
+
+width: 490px;
+position:relative;
+top:-140px;
+
+}
+.div1-content{
+
+position:relative;
+left:30px;
+width:450px;
+
+}
+.div2{
+
+width: 300px;
+height:1000px;
+position:relative;
+left:-360px;
+top:-100px;
+
+}
+.div2 .goals ul {
+
+display:inline-block;
+
+}
+.div2 .goals ul li{
+
+display:block;
+position:relative;
+left:330px;
+width:350px;
+height:200px;
+font-size:20px;
+
+}
+.div2-heading{
+
+  width:400px;
+  position:relative;
+  left:-50px;
+
+}
+.div3{
+
+width: 335px;
+height:800px;
+position:relative;
+top:-300px;
+
+}
+.div3 .image1  img{
+
+  width: 300px;
+  position:relative;
+  left:-100px;
+
+}
+.div3 .div3-content{
+
+  padding-top:40px;
+  position:relative;
+  left:-100px;
+  width:400px;
+  line-height: 40px;
+
+}
+.topcourses{
+
+  position:relative;
+  top:-10px;
+  left:80px;
+
+}
+ .course1-image  img{
+
+   width:300px;
+   height:200px;
+
+ }
+.course1-content {
+
+font-size:25px;
+
+}
+.span2{
+
+  font-size:20px;
+
+}
+.div4{
+
+position:relative;
+top:-200px;
+
+}
+.div5{
+
+width: 480px;
+height:1120px;
+position:relative;
+top:-160px;
+
+}
+.div5 .review{
+
+height:250px;
+margin-bottom: 30px;
+width:400px;
+margin-left: 20px;
+font-size:25px;
+line-height:40px;
+
+}
+.footer-container{
+
+ width:480px;
+ line-height:25px;
+ position:relative;
+ top:-160px;
+ height:130px;
+
+}
+.footer2 ul li{
+
+  position: relative;
+  left:-180px;
+
+}
+
+}
